@@ -10,8 +10,11 @@
 ## Bios
 
 ```bash
-Enable IOMMU in BIOS
-i.e., Intel Virtualization Technology / VT-d
+#Enable IOMMU in BIOS
+
+# Intel Server
+# BIOS => Setup => Advanced => Processor Configurations: Enable: Virtualization
+# BIOS => Setup => Advanced => Integrated IO Configurations: Enable:Intel VT for Direct I/O
 ```
 
 ## Installation
