@@ -11,7 +11,7 @@
 
 ```bash
 Enable IOMMU in BIOS
-i.e., VT-d
+i.e., Intel Virtualization Technology / VT-d
 ```
 
 ## Installation
@@ -27,6 +27,10 @@ cd build
 ninja
 sudo ninja install
 sudo ldconfig
+cd ..
+git clone git://dpdk.org/dpdk-kmods
+cd dpdk-kmods/linux/igb_uio
+make
 
 git clone https://github.com/pktgen/Pktgen-DPDK.git
 git checkout pktgen-25.08.2
