@@ -1,5 +1,18 @@
 # pktgen_dpdk
 
+## Grub
+
+```bash
+# Enable iommu in grub
+# Follow https://github.com/EngrArsalanPervez/iommu_grub
+```
+
+## Bios
+
+```bash
+Enable IOMMU in BIOS
+i.e., VT-d
+```
 
 ## Installation
 
